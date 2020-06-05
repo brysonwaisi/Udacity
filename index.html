@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="description" content="Project #1 - Personal Blog" />
     <meta content="width=device-width initial-scale=1 maximum-scale=1" name="viewport" />
-    <link href="/css/styles.css" rel="stylesheet">
+    <link href="/css/main.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Project #1 - Personal Blog</title>
 </head>
@@ -15,8 +15,30 @@
 <body>
     <div class="container">
         <div class="main">
-            <h1>Coffee</h1>
-            <p> Coffee is a brewed drink prepared from roasted coffee beans, the seeds of berries from certain species.</p>
+            <header>
+                <h1>Coffee</h1>
+            </header>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a></li>
+                    <li>
+                        <a href="coffee types.html">Coffee Types</a></li>
+                    <li>
+                        <a href="no.html">About</a></li>
+                    <li>
+                        <a href="no.html">Services</a></li>
+                    <li>
+                        <a href="no.html">Contact</a></li>
+                </ul>
+                <form class="search-form">
+                    <input type="text" placeholder="Search">
+                    <button>Search</button>
+
+                </form>
+            </nav>
+            </header>
+            <p> Coffee is a <u>brewed drink</u> prepared from roasted coffee beans, the seeds of berries from certain species.</p>
             <h2> Coffee Interesting Facts</h2>
 
             <ul>
@@ -31,12 +53,13 @@
             </ul>
             <h3> Cappuccino Recipe</h3>
             <img src="/image/capuccino.jpg" alt="capuccino">
+            <figcaption>Cappuccino</figcaption>
 
             <dl>
-                <dt>Cappuccino Coffee</dt>
+                <dt><b>Cappuccino Coffee</b></dt>
                 <dd>A cappuccino is an Italian coffee drink that is traditionally prepared with double espresso, hot milk, and steamed milk foam on top. Cream may be used instead of milk and is often topped with cinnamon.</dd>
             </dl>
-
+            <p><q>I like cappuccino, actually. But even a bad cup of coffee is better than no coffee at all.</q> ~ <cite>David Lynch</cite></p>
             <h4>Ingredients</h4>
             <ul>
                 <li>2 tablespoons coffee</li>
@@ -59,13 +82,27 @@
             </ol>
         </div>
     </div>
-    <button><a href="espresso.html">Espresso Recipe</a></button>
+    <h5>Nutrition Facts</h5>
+    <p>Brewed coffee from typical grounds prepared with tap water contains <b>40 mg caffeine per 100 gram</b> and no essential nutrients in significant content.<br> In espresso, however, likely due to its higher amount of suspended solids, there are significant
+        contents of <b>magnesium</b>, the <b>B vitamins</b>, <b>niacin</b> and <b>riboflavin</b>, and <b>212 mg of caffeine per 100 grams</b> of grounds.</p>
 
-    </main>
+    <h6>Serving</h6>
+    <p><em>Once brewed, coffee may be served in a variety of ways:</em>
+        <ul>
+            <li>Drip-brewed, percolated, or French-pressed/cafetière coffee may be served as white coffee with a dairy product such as milk or cream, or dairy substitute, or as black coffee with no such addition.
+            </li>
+            <li>It may be sweetened with sugar or artificial sweetener.</li>
+            <li>When served cold, it is called iced coffee.</li>
+        </ul>
+    </p>
+
+    </div>
+    <button><a href="espresso.html">Espresso Recipe</a></button>
 </body>
-<div class="footer">
-    <a href="https://web.facebook.com/bryson.nyamwange" target="_blank" class="fa fa-facebook"></a>
-    <a href="https://twitter.com/brysonwaisi" class="fa fa-twitter"></a>
-</div>
-&copy;Bryson Nyamwange 2020. Studying at Udacity
+<footer>
+    <div class="footer">
+        <a href="https://web.facebook.com/bryson.nyamwange" target="_blank" class="fa fa-facebook"></a>
+        <a href="https://twitter.com/brysonwaisi" target="_blank" class="fa fa-twitter"></a>
+    </div>
+    <b>Contact</b><br>Bryson Nyamwange.<br> Phone: +254713015955<br> Email: brysonnyamwange@gmail.com <br> &copy;Bryson Nyamwange 2020. Studying at Udacity
 </footer>
