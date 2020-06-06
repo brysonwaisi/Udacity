@@ -126,13 +126,13 @@ button {
     padding: 10px;
     border: none;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: rgba(12, 34, 2, 0.151);
+    background-color: rgba(0, 0, 0, 0.151);
     color: rgb(214, 218, 10);
     border-radius: 25%;
 }
 
 button:hover {
-    background-color: rgba(236, 9, 9, 0.116);
+    background-color: rgba(19, 1, 49, 0.116);
 }
 
 footer {
